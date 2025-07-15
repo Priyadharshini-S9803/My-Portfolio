@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Priyadharshini S</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Priyadharshini S</span>
+                    </h1>
+                    <p class="hero-subtitle">Frontend Developer & Business Analyst</p>
+                    <p class="hero-description">
+                        Recent Computer Science graduate passionate about creating user-friendly interfaces 
+                        and transforming data into actionable business insights. Eager to contribute to 
+                        innovative projects and grow in the tech industry.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <img src="attached_assets/profile.jpeg" alt="Priyadharshini S" class="profile-image">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 3s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic foundation in Computer Science and Engineering</p>
+            </div>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-info">
+                                <h3 class="degree">Bachelor of Engineering - Computer Science and Engineering</h3>
+                                <h4 class="institution">Sri Eshwar College of Engineering</h4>
+                                <p class="grade">CGPA: 8.06</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="education-info">
+                                <h3 class="degree">Higher Secondary Certificate (HSC)</h3>
+                                <h4 class="institution">Brindisi Matric Hr Sec School</h4>
+                                <p class="grade">91.92%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="education-info">
+                                <h3 class="degree">Secondary School Leaving Certificate (SSLC)</h3>
+                                <h4 class="institution">Brindisi Matric Hr Sec School</h4>
+                                <p class="grade">94%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and goals</p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-info">
+                        <h3>Background</h3>
+                        <p>
+                            I'm a recent Computer Science graduate from Sri Eshwar College of Engineering 
+                            with a CGPA of 8.06. My journey in technology has been driven by curiosity 
+                            and a passion for creating solutions that make a difference.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-info">
+                        <h3>Expertise</h3>
+                        <p>
+                            Specialized in frontend development and business analytics. I enjoy creating 
+                            intuitive user interfaces and transforming complex data into meaningful business 
+                            insights that drive decision-making.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="about-info">
+                        <h3>Goals</h3>
+                        <p>
+                            Seeking opportunities to contribute to innovative projects where I can apply 
+                            my technical skills, continue learning, and help organizations achieve their 
+                            digital transformation goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="achievements">
+                <div class="achievement-item">
+                    <div class="achievement-number">150+</div>
+                    <div class="achievement-label">LeetCode Problems</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-number">1000+</div>
+                    <div class="achievement-label">SkillRack Solutions</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-number">8.06</div>
+                    <div class="achievement-label">CGPA</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React JS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Business Analytics</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>MS Excel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A description of my recent projects </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Chocolate Sales Analysis</h3>
+                        <p class="project-description">
+                            Designed an interactive dashboard to track sales performance, shipment efficiency, 
+                            and profit margins. Implemented Month-over-Month growth metrics and regional insights 
+                            to identify trends and optimize costs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">MS Excel</span>
+                            <span class="tech-tag">DAX</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">Interactive Dashboard</div>
+                            <div class="feature">Sales Performance Tracking</div>
+                            <div class="feature">Regional Insights</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real Vista Marketplace</h3>
+                        <p class="project-description">
+                            Built a scalable real estate platform with property browsing, searching, filtering, 
+                            sorting, and booking features. Developed responsive React frontend and Node.js backend.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">Property Search & Filter</div>
+                            <div class="feature">Booking System</div>
+                            <div class="feature">Responsive Design</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Delicious Foods</h3>
+                        <p class="project-description">
+                            Developed a full-stack MERN application featuring CRUD operations for recipes and 
+                            a favourite section. Built backend APIs with Node.js and Express.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">Recipe Management</div>
+                            <div class="feature">Favorites System</div>
+                            <div class="feature">CRUD Operations</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flix Zone</h3>
+                        <p class="project-description">
+                            Built a responsive e-commerce site for electronic gadgets with full mobile and 
+                            desktop compatibility. Added product browsing, filters, and cart features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">E-commerce Platform</div>
+                            <div class="feature">Shopping Cart</div>
+                            <div class="feature">Product Filters</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Investment Trends Analysis</h3>
+                        <p class="project-description">
+                            Designed a financial performance dashboard to analyze investment trends and portfolio 
+                            risks. Used DAX to calculate average returns and risk metrics.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">MS Excel</span>
+                            <span class="tech-tag">DAX</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">Financial Analysis</div>
+                            <div class="feature">Risk Assessment</div>
+                            <div class="feature">Investment Insights</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Internships and professional development journey</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="company-logo">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="position">Power BI Intern</h3>
+                                <h4 class="company">Cognifyz Technologies</h4>
+                                <p class="duration">2024</p>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievements">
+                                <li>Developed interactive dashboards to analyze business performance, customer segmentation, and financial trends</li>
+                                <li>Utilized DAX calculations to generate insights on monthly revenue trends, product performance, and customer behaviour</li>
+                                <li>Transformed raw business data into actionable reports to aid decision-making for stakeholders</li>
+                            </ul>
+                            <div class="experience-skills">
+                                <span class="skill-tag">Power BI</span>
+                                <span class="skill-tag">DAX</span>
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Business Intelligence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="company-logo">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="experience-info">
+                                <h3 class="position">MERN Stack Intern</h3>
+                                <h4 class="company">The Better Tomorrow</h4>
+                                <p class="duration">2023</p>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul class="achievements">
+                                <li>Developed dynamic React components to create a responsive user interface</li>
+                                <li>Designed and managed MongoDB schemas for efficient data storage and retrieval</li>
+                                <li>Built APIs with Node.js and Express.js to handle CRUD operations</li>
+                                <li>Collaborated on integrating frontend and backend modules to ensure seamless data flow</li>
+                            </ul>
+                            <div class="experience-skills">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">Express.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="certifications-title">Certifications & Learning</h3>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Business Analysis - LinkedIn</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Power BI - Great Learning</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Frontend Development - Great Learning</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>UI/UX Bootcamp - This UX</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>MySQL - HackerRank</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Java - Udemy</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>DSA - Udemy</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-certificate"></i>
+                        <span>Agile Scrum - Simplilearn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>priyadharshinis9803@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7397016925</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Coimbatore, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send Me a Message</h3>
+                        <p class="form-instruction">Fill out the form below and click Send Message. I'll receive your message directly in my email inbox. <br><strong>Alternative:</strong> You can also email me directly at <a href="mailto:priyadharshinis9803@gmail.com" style="color: var(--primary-color);">priyadharshinis9803@gmail.com</a></p>
+                        <form id="contactForm" class="contact-form" action="https://formsubmit.co/ajax/priyadharshinis9803@gmail.com" method="POST">
+                            <div class="form-group">
+                                <input type="text" id="senderName" name="name" placeholder="Your Name" required>
+                                <i class="fas fa-user form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="senderEmail" name="email" placeholder="Your Email" required>
+                                <i class="fas fa-envelope form-icon"></i>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                                <i class="fas fa-comment form-icon"></i>
+                            </div>
+                            <!-- Hidden field to redirect after submission -->
+                            
+                            <button type="submit" class="btn btn-primary contact-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/priyadharshini-s-914129242/" class="social-link" aria-label="LinkedIn" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Priyadharshini-S9803" class="social-link" aria-label="GitHub" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:priyadharshinis9803@gmail.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+91 7397016925" class="social-link" aria-label="Phone">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Priyadharshini S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
